@@ -8,8 +8,6 @@ class TestVarasto(unittest.TestCase):
         self.varasto2 = Varasto(-10)
         self.varasto3 = Varasto(10,-20)
         self.varasto4 = Varasto(10,20)
-        kukka = "sammakko"
-        peruna = "porkkana"
 
     def test_konstruktori_luo_tyhjan_varaston(self):
         # https://docs.python.org/3/library/unittest.html#unittest.TestCase.assertAlmostEqual
